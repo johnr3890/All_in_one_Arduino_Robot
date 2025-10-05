@@ -150,12 +150,10 @@ This project is perfect for **students, hobbyists, and robotics enthusiasts** wh
 
 ### 🎥 Full Demo on YouTube
 
-[![Demo Video](docs/play.png)](https://youtu.be/u6bmt4iUy5o?si=hHZo-fITO03jiOHA)
-
-### Remote
-
 <p>
-<img src="docs/ir_remote.png" alt="IR Remote" width="250"/>
+  <a href="https://youtu.be/u6bmt4iUy5o?si=hHZo-fITO03jiOHA" target="_blank">
+    <img src="docs/play.png" alt="Demo Video" width="200"/>
+  </a>
 </p>
 
 ---
