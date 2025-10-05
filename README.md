@@ -60,11 +60,11 @@ This project is perfect for **students, hobbyists, and robotics enthusiasts** wh
 - **Microcontroller:** Arduino UNO
 - **Motor Driver:** L298N for left & right motors
 - **Sensors:**
-  - IR sensors → Line following & obstacle detection
-  - Ultrasonic sensor → Distance measurement
+- IR sensors → Line following & obstacle detection
+- Ultrasonic sensor → Distance measurement
 - **Control Modules:**
-  - HC-05 Bluetooth → Mobile app control
-  - IR Receiver → Remote control
+- HC-05 Bluetooth → Mobile app control
+- IR Receiver → Remote control
 - **Servo Motor:** Rotates ultrasonic sensor for scanning
 
 ---
@@ -122,12 +122,12 @@ This project is perfect for **students, hobbyists, and robotics enthusiasts** wh
 
 ### Robot Car Build
 
-![Robot Car Side View](docs/robo_2.jpg)
-![Robot Car Front View](docs/robo_1.jpg)
+![Robot Car Front View](docs/robo_2.png)
+![Robot Car Back View](docs/robo_1.png)
 
 ### Full Demo on YouTube
 
-[![Watch the video](https://img.youtube.com/vi/abcd1234/0.jpg)](https://youtu.be/u6bmt4iUy5o?si=T0r8qApfF5LiCfYa)
+[![Watch the video](docs/play.png)](https://youtu.be/u6bmt4iUy5o?si=T0r8qApfF5LiCfYa)
 
 ---
 
@@ -140,7 +140,7 @@ This project is perfect for **students, hobbyists, and robotics enthusiasts** wh
 
 ---
 
-## ✅ Conclusion
+## ✅ Conclusion  
 
 The **ALL_IN_ONE_ARDUINO_ROBOT** is a complete robotics project that blends **hardware, software, and mobile interaction**. Whether you’re a beginner or an advanced maker, this project offers a **fun, educational, and practical** way to explore robotics.
 
