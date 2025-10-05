@@ -100,7 +100,7 @@ void loop() {
     else if (bt_ir_data == 2) { backward(); }
     else if (bt_ir_data == 3) { turnLeft(); }
     else if (bt_ir_data == 4) { turnRight(); }
-    else if (bt_ir_data == 5) { Stop(); }
+    else if (bt_ir_data == 5 || bt_ir_data == 0) { Stop(); } // 0 or 5 = Stop
 
     // Voice control (momentary)
     else if (bt_ir_data == 6) { turnLeft();  delay(400); bt_ir_data = 5; Stop(); }
@@ -189,7 +189,7 @@ void sweepServo(int startAngle, int endAngle, int step) {
       delay(20);
     }
   } else {
-    for (int a = startAngle; a >= endAngle; a += step) {
+    for (int a = startAngle; a >= endAngle; a -= step) {
       scanServo.write(a);
       delay(20);
     }
@@ -239,7 +239,7 @@ void Check_side() {
   delay(150);
   distance_R = Ultrasonic_read();
 
-  // Return center
+    // Return center
   sweepServo(0, 70, 5);
   delay(150);
 

@@ -2,10 +2,13 @@
 
 _A Line Follower + Obstacle Avoiding Robot Car Controlled by IR Remote & Mobile App_
 
-![Arduino](https://img.shields.io/badge/Arduino-UNO-blue?logo=arduino)  
-![License](https://img.shields.io/badge/License-Apache%202.0-green)  
-![Platform](https://img.shields.io/badge/Platform-Arduino%20IDE-orange)  
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+<div>
+
+![Arduino](https://img.shields.io/badge/Arduino-UNO-blue?logo=arduino)
+![License](https://img.shields.io/badge/License-Apache%202.0-green)
+![Platform](https://img.shields.io/badge/Platform-Arduino%20IDE-orange)
+
+</div>
 
 ---
 
@@ -60,11 +63,11 @@ This project is perfect for **students, hobbyists, and robotics enthusiasts** wh
 - **Microcontroller:** Arduino UNO
 - **Motor Driver:** L298N for left & right motors
 - **Sensors:**
-- IR sensors → Line following & obstacle detection
-- Ultrasonic sensor → Distance measurement
+  - IR sensors → Line following & obstacle detection
+  - Ultrasonic sensor → Distance measurement
 - **Control Modules:**
-- HC-05 Bluetooth → Mobile app control
-- IR Receiver → Remote control
+  - HC-05 Bluetooth → Mobile app control
+  - IR Receiver → Remote control
 - **Servo Motor:** Rotates ultrasonic sensor for scanning
 
 ---
@@ -73,11 +76,10 @@ This project is perfect for **students, hobbyists, and robotics enthusiasts** wh
 
 ### IR Remote
 
-- `+` → Move Forward
-- `-` → Move Backward
-- `>>|` → Turn Right
-- `|<<` → Turn Left
-- `>` → Stop
+- `▲` → Move Forward
+- `▼` → Move Backward
+- `▶` → Turn Right
+- `◀` → Turn Left
 - `1` → Obstacle Avoidance Mode
 - `2` → Line Follower Mode
 - `3` → Manual Mode
@@ -88,6 +90,25 @@ This project is perfect for **students, hobbyists, and robotics enthusiasts** wh
 - **Voice Commands:** “Go Forward”, “Stop”, “Go Back”, “Turn Right”, “Turn Left”
 - **Modes:** Line Following, Obstacle Avoidance, Manual
 - **Slider:** Adjust robot speed
+
+---
+
+## 🎮 Command Mapping Table
+
+| App Control (MIT Block)             | Data Sent (1‑Byte Number) | Arduino Code Interprets As | Robot Action                 |
+| ----------------------------------- | ------------------------- | -------------------------- | ---------------------------- |
+| **Forward (TouchDown)**             | `1`                       | `bt_ir_data == 1`          | Move Forward                 |
+| **Backward (TouchDown)**            | `2`                       | `bt_ir_data == 2`          | Move Backward                |
+| **Left (TouchDown)**                | `3`                       | `bt_ir_data == 3`          | Turn Left                    |
+| **Right (TouchDown)**               | `4`                       | `bt_ir_data == 4`          | Turn Right                   |
+| **Stop / Button Release (TouchUp)** | `0`                       | `bt_ir_data == 0` → Stop   | Stop Motors                  |
+| **Stop Button (optional)**          | `5`                       | `bt_ir_data == 5`          | Stop Motors                  |
+| **Voice Left**                      | `6`                       | `bt_ir_data == 6`          | Short Left Turn (momentary)  |
+| **Voice Right**                     | `7`                       | `bt_ir_data == 7`          | Short Right Turn (momentary) |
+| **Manual Mode**                     | `8`                       | `mode = 0`                 | Switch to Manual Control     |
+| **Line Follower Mode**              | `9`                       | `mode = 1`                 | Enable Line Following        |
+| **Obstacle Avoid Mode**             | `10`                      | `mode = 2`                 | Enable Obstacle Avoidance    |
+| **Slider (Speed Control)**          | `21–255`                  | `Speed = data`             | Adjust Motor Speed (PWM)     |
 
 ---
 
@@ -122,14 +143,20 @@ This project is perfect for **students, hobbyists, and robotics enthusiasts** wh
 
 ### Robot Car Build
 
-<img src="docs/robo_2.png" alt="Robot Car Front View" width="400"/>
-<img src="docs/robo_1.png" alt="Robot Car Back View" width="400"/>
+<p>
+  <img src="docs/robo_2.png" alt="Robot Car Front View" width="350"/>
+  <img src="docs/robo_1.png" alt="Robot Car Back View" width="350"/>
+</p>
 
-### Full Demo on YouTube
+### 🎥 Full Demo on YouTube
 
-<a href="https://youtu.be/u6bmt4iUy5o?si=hHZo-fITO03jiOHA" target="_blank">
-  <img src="docs/play.png" alt="Demo Video" width="250"/>
-</a>
+[![Demo Video](docs/play.png)](https://youtu.be/u6bmt4iUy5o?si=hHZo-fITO03jiOHA)
+
+### Remote
+
+<p>
+<img src="docs/ir_remote.png" alt="IR Remote" width="250"/>
+</p>
 
 ---
 
