@@ -122,12 +122,14 @@ This project is perfect for **students, hobbyists, and robotics enthusiasts** wh
 
 ### Robot Car Build
 
-![Robot Car Front View](docs/robo_2.png)
-![Robot Car Back View](docs/robo_1.png)
+<img src="docs/robo_2.png" alt="Robot Car Front View" width="400"/>
+<img src="docs/robo_1.png" alt="Robot Car Back View" width="400"/>
 
 ### Full Demo on YouTube
 
-[![Watch the video](docs/play.png)](https://youtu.be/u6bmt4iUy5o?si=T0r8qApfF5LiCfYa)
+<a href="https://youtu.be/u6bmt4iUy5o?si=hHZo-fITO03jiOHA" target="_blank">
+  <img src="docs/play.png" alt="Demo Video" width="250"/>
+</a>
 
 ---
 
@@ -140,7 +142,7 @@ This project is perfect for **students, hobbyists, and robotics enthusiasts** wh
 
 ---
 
-## ✅ Conclusion  
+## ✅ Conclusion
 
 The **ALL_IN_ONE_ARDUINO_ROBOT** is a complete robotics project that blends **hardware, software, and mobile interaction**. Whether you’re a beginner or an advanced maker, this project offers a **fun, educational, and practical** way to explore robotics.
 
